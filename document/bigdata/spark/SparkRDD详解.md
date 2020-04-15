@@ -38,7 +38,7 @@ cache和persist其实是RDD的两个API，并且cache底层调用的就是persis
 Spark中使用DAG（有向无环图）来描述RDD之间的依赖关系，根据依赖关系的不同，划分为宽依赖和窄依赖
 
 <p align="center">
-<img src="./image/rdd_dependency.jpg" width="550" height="350"/>
+<img src="../../image/rdd_dependency.jpg" width="550" height="350"/>
 </p>
 
 通过上图，可以很容易得出:  
@@ -56,3 +56,6 @@ Spark任务以及stage等的具体划分，牵涉到源码，后续会单独讲�
 4. RDD默认是存储于内存，但当内存不足时，会spill到disk（可通过设置StorageLevel来控制）  
 5. 默认hash分区，可自定义分区器  
 6. 每一个分片的优先计算位置（preferred locations）列表，比如HDFS的block的所在位置应该是优先计算的位置
+
+
+### [阅读原文](https://mp.weixin.qq.com/s/ZzTxTLlcgwQPhysuxN0iRQ)

@@ -9,7 +9,7 @@
 Apache Spark是一种快速、通用、可扩展、可容错的、基于内存迭代计算的大数据分析引擎。首先强调一点，Spark目前是一个处理数据的计算引擎，不做存储。首先咱们通过一张图来看看目前Spark生态圈都包括哪些核心组件：
 
 <p align="center">
-<img src="./image/Spark通识.jpg" width="600" height="350"/>
+<img src="../../image/Spark通识.jpg" width="600" height="350"/>
 </p>
 
 本篇文章先简单介绍一下各个组件的使用场景，后续笔者会单独详解其中的核心组件，以下所讲均基于Spark2.X版本。 
@@ -58,3 +58,6 @@ Spark RDD和Spark SQL多用于离线场景，但Spark RDD即可以处理结构�
 * 兼容性强
 
     可以运行在Yarn、Kubernetes、Mesos等资源管理器上，实现Standalone模式作为内置资源管理调度器，支持多种数据源
+    
+    
+### [阅读原文](https://mp.weixin.qq.com/s/hpCpD_8Q5CxCdUlF8oHFkQ)
