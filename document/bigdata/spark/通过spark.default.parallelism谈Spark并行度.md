@@ -22,7 +22,7 @@
 你会发现，如果你使用reducebykey、groupByKey等这些带shuffle的算子，建议不要通过上述方法让程序内部去推测。完全可以通过传入一个确定的分区数或者自己实现一个分区器来做处理。当然这个确定的分区数也不是贸贸然设定的，需要结合你的业务场景根据实际情况来确定多少合适。比如shuffle时流经的数据量，这个就要结合分区数和shuffle总数据量来做适当调整，处理不好的结果极有可能导致数据倾斜等问题...
 
 
-笔者再次建议，学习Spark一定要多看Spark官网http://spark.apache.org/，并且多看源码。
+笔者再次建议，学习Spark一定要研究源码，以及Spark官网http://spark.apache.org/
 
 
 ### [阅读原文](https://mp.weixin.qq.com/s/5Q66oerw6yStT-X607de-g)

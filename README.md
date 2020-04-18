@@ -9,9 +9,12 @@
 * <font face="黑体" size=3>**[BigData](document/bigdata/大数据常用技术栈.md)**</font>
 	* <font face="" size=3>Spark</font>
 		* [Spark通识](document/bigdata/spark/Spark通识.md)
+		* [Spark集群和任务执行](document/bigdata/spark/Spark集群和任务执行.md)
+		* [对Spark硬件配置的建议](document/bigdata/spark/对Spark硬件配置的建议.md)
 		* [SparkRDD详解](document/bigdata/spark/SparkRDD详解.md)
 		* [聊聊Spark的分区](document/bigdata/spark/聊聊Spark的分区.md)
 		* [通过spark.default.parallelism谈Spark并行度](document/bigdata/spark/通过spark.default.parallelism谈Spark并行度.md)
+		* [Spark为什么只有在调用action时才会触发任务执行呢（附算子优化和使用示例）？](document/bigdata/spark/Spark为什么只有在调用action时才会触发任务执行呢（附算子优化和使用示例）？.md)
 		
 	* <font face="" size=3>MapReduce</font>
 	* <font face="" size=3>HDFS</font>
@@ -20,9 +23,9 @@
 	
 * <font face="" size=3>**Kafka**</font>
 
-* <font face="" size=3>**DataBase**</font>
-	   * <font face="" size=3>HBase</font>
-	   * <font face="" size=3>Redis</font>
+* <font face="" size=3>**DataBase**</font>  
+	* <font face="" size=3>HBase</font> 
+	* <font face="" size=3>Redis</font>
 
 * <font face="" size=3>**WorkExperience**</font>
 
