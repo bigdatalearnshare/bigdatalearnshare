@@ -17,6 +17,9 @@
 		* [Spark为什么只有在调用action时才会触发任务执行呢（附算子优化和使用示例）？](document/bigdata/spark/Spark为什么只有在调用action时才会触发任务执行呢（附算子优化和使用示例）？.md)
 		
 	* <font face="" size=3>MapReduce</font>
+		* [详解MapReduce（Spark和MapReduce对比铺垫篇）](document/bigdata/hadoop/详解MapReduce（Spark和MapReduce对比铺垫篇）.md)
+		* [必须掌握的分布式文件存储系统—HDFS](document/bigdata/hadoop/必须掌握的分布式文件存储系统—HDFS.md)
+		
 	* <font face="" size=3>HDFS</font>
 	* <font face="" size=3>Hive</font>
 	* <font face="" size=3>Yarn</font>

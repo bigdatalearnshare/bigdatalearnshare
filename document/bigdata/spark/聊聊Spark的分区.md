@@ -7,7 +7,7 @@
 Spark对接不同的数据源，在第一次得到的分区数是不一样的，但都有一个共性：对于map类算子或者通过map算子产生的彼此之间具有窄依赖关系的RDD的分区数，子RDD分区与父RDD分区是一致的。而对于通过shuffle差生的子RDD则由分区器决定，当然默认分区器是HashPartitioner，我们完全可以根据实际业务场景进行自定义分区器，只需继承Parttioner组件，主要重写几个方法即可：
 
 <p align="center">
-<img src="../../image/partitioner.png" width="500" height="110"/>
+<img src="../../image/spark/partitioner.png" width="500" height="110"/>
 </p>
     
 以加载hdfs文件为例，Spark在读取hdfs文件还没有调用其他算子进行业务处理前，得到的RDD分区数由什么决定呢？关键在于文件是否可切分：

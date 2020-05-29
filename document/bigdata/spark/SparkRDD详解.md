@@ -38,7 +38,7 @@ cache和persist其实是RDD的两个API，并且cache底层调用的就是persis
 Spark中使用DAG（有向无环图）来描述RDD之间的依赖关系，根据依赖关系的不同，划分为宽依赖和窄依赖
 
 <p align="center">
-<img src="../../image/rdd_dependency.jpg" width="550" height="350"/>
+<img src="../../image/spark/spark_rdd/rdd_dependency.jpg" width="550" height="350"/>
 </p>
 
 通过上图，可以很容易得出:  

@@ -5,7 +5,7 @@
 ### Spark集群组件
 
 <p align="center">
-<img src="../../image/spark_component.jpg" width="500" height="350"/>
+<img src="../../image/spark/spark_component.jpg" width="500" height="350"/>
 </p>
 
 Spark是典型的Master/Slave架构，集群主要包括以下4个组件：
@@ -23,7 +23,7 @@ Executor：运算任务执行器，运行在worker节点上的一个进程。类
 以StandAlone运行模式为例：
 
 <p align="center">
-<img src="../../image/master_driver_worker.jpg" width="500" height="400"/>
+<img src="../../image/spark/master_driver_worker.jpg" width="500" height="400"/>
 </p>
 
 1. 客户端启动应用程序及Driver相关工作，向Master提交任务申请资源

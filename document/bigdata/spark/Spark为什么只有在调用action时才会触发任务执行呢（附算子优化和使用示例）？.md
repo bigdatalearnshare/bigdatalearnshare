@@ -4,7 +4,7 @@ Spark算子主要划分为两类：transformation和action，并且只有action�
 
 
 <p align="center">
-<img src="../../image/trans_action.jpg" width="550" height="350"/>
+<img src="../../image/spark/trans_action.jpg" width="550" height="350"/>
 </p>
 
 但初学Spark的人往往都会有这样的疑惑，为什么Spark任务只有在调用action算子的时候，才会真正执行呢？咱们来假设一种情况：假如Spark中transformation直接触发Spark任务！那么会产生什么结果呢？
