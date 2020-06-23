@@ -25,6 +25,7 @@
 	* <font face="" size=3>HDFS</font>
 	* <font face="" size=3>Hive</font>
 	* <font face="" size=3>Yarn</font>
+		* [不可不知的资源管理调度器Hadoop Yarn](document/bigdata/hadoop/不可不知的资源管理调度器Hadoop Yarn.md)
 	
 * <font face="" size=3>**Kafka**</font>
 
