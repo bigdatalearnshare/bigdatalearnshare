@@ -100,7 +100,7 @@ timeout = 2 * heartbeat.recheck.interval（默认5分钟） + 10 * dfs.heartbeat
 #### 3.1 HDFS写数据流程
 
 <p align="center">
-<img src="../image//hadoop/hdfs_write.jpg" width="500" height="400"/>
+<img src="../../image//hadoop/hdfs_write.jpg" width="500" height="400"/>
 </p>
 
 注意：
@@ -122,7 +122,7 @@ timeout = 2 * heartbeat.recheck.interval（默认5分钟） + 10 * dfs.heartbeat
 #### 3.2 HDFS读数据流程
 
 <p align="center">
-<img src="../image/hadoop/hdfs_read.jpg" width="500" height="400"/>
+<img src="../../image/hadoop/hdfs_read.jpg" width="500" height="400"/>
 </p>
 
 注意：
@@ -138,7 +138,7 @@ timeout = 2 * heartbeat.recheck.interval（默认5分钟） + 10 * dfs.heartbeat
 HA：高可用，通过双Namenode消除单点故障。
 
 <p align="center">
-<img src="../image/hadoop/hdfs_ha.jpg" width="500" height="400"/>
+<img src="../../image/hadoop/hdfs_ha.jpg" width="500" height="400"/>
 </p>
 
 双Namenode协调工作的要点：

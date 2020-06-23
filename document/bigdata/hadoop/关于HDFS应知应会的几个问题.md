@@ -140,3 +140,6 @@ dfs.hosts：白名单；dfs.hosts.exclude：黑名单
 ### 13. 查看HDFS集群工作状态命令 ？
 
 hdfs dfsadmin -report：快速定位各个节点情况，如每个节点的硬盘使用情况
+
+
+### [阅读原文](https://mp.weixin.qq.com/s/L7mZpjdBb1wnI3oEPmrALg)
